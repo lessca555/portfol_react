@@ -39,12 +39,6 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-start pt-6 gap-3 max-w-[200px] w-full text-gray-400 ml-1">
-            <a
-              href="https://instagram.com/christianmj__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-              target="_blank"
-            >
-              <FaInstagram className="cursor-pointer" size={20} />
-            </a>
             <a target="_blank" href="https://github.com/lessca555">
               <FaGithub className="cursor-pointer" size={20} />
             </a>
