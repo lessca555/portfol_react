@@ -6,6 +6,7 @@ import film from "../../assets/project/film.png";
 import stiga from "../../assets/project/stiga.png";
 import cart from "../../assets/project/cc.png";
 import mikrotik from "../../assets/project/mikrotik.png";
+import tod from "../../assets/project/tod.png";
 import "aos/dist/aos.css";
 import Aos from "aos";
 
@@ -17,7 +18,7 @@ const Project = () => {
     <div id="project" className="max-w-[1040p] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-black">Projects</h1>
       <p className="text-center pb-8 pt-3 capitalize">
-        Some projects that I ever build
+        Some projects that I ever work on
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <div data-aos="zoom-in-up">
@@ -66,6 +67,14 @@ const Project = () => {
             title="Setting hotspot network using Mikrotik"
             tech="winbox, mikrotik router"
             url="https://youtu.be/t_BD2Gks17M?si=PVX6ORktgE_oqIAV"
+          />
+        </div>
+        <div data-aos="zoom-in-down">
+          <ProjectItems
+            img={tod}
+            title="Online Truth or Dare Web App (No database)"
+            tech="ReactJS, Vite"
+            url="https://bit.ly/tod_test"
           />
         </div>
       </div>
